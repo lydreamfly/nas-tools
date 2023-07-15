@@ -1,6 +1,7 @@
 name: Build NAStool Image
 on:
   workflow_dispatch:
+  fork:
   push:
     branches:
       - master
